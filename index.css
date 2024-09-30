@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Cor escura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #444; /* Cor escura */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Cor branca para o título */
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    color: #fff; /* Cor branca para os labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #666; /* Cor escura para a borda */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #444; /* Cor escura para o fundo dos inputs */
+    color: #fff; /* Cor branca para o texto dos inputs */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #666; /* Cor escura para o botão */
+    color: #fff; /* Cor branca para o texto do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; /* Cor escura para o hover do botão */
+}
+
+#resultado {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff; /* Cor branca para o texto do resultado */
+    text-align: center;
+}
